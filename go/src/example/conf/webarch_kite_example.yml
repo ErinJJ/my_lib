@@ -1,0 +1,38 @@
+Develop:
+  EnablePprof: true
+  ServicePort: "8888"
+  LogLevel: 0
+  LogInterval: "hour"
+  EnableMetrics: false
+  EnableDebugServer: true
+  ConsoleLog: true
+  DatabusLog: false
+  AgentLog: false
+  FileLog: true
+  EnableTracing: true
+
+Product:
+  EnablePprof: true
+  ServicePort: "8888"
+  LogLevel: 0
+  LogInterval: "hour"
+  EnableMetrics: true
+  EnableDebugServer: true
+  ConsoleLog: false
+  DatabusLog: false
+  AgentLog: true
+  FileLog: true
+  EnableTracing: true
+
+Testing:
+  EnablePprof: true
+  ServicePort: "8888"
+  LogLevel: 0
+  LogInterval: "hour"
+  EnableMetrics: false
+  EnableDebugServer: true
+  ConsoleLog: true
+  DatabusLog: false
+  FileLog: true
+  EnableTracing: true
+
